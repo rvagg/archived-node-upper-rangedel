@@ -1,0 +1,9 @@
+{
+  "name": "example",
+  "version": "0.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "levelup": "~0.7.0-b01",
+    "upper-rangedel": "0.0.0"
+  }
+}
