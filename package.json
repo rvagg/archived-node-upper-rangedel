@@ -1,0 +1,30 @@
+{
+    "name"            : "upper-rangedel"
+  , "description"     : "A LevelUP plugin providing a native rangeDel() method via downer-rangedel"
+  , "version"         : "0.0.0"
+  , "homepage"        : "https://github.com/rvagg/node-upper-rangedel"
+, "authors"         : [
+        "Rod Vagg <rod@vagg.org> (https://github.com/rvagg)"
+    ]
+  , "keywords"        : [ "levelup", "leveldb", "rangedel" ]
+  , "main"            : "./index.js"
+  , "repository"      : {
+        "type"            : "git"
+      , "url"             : "https://github.com/rvagg/node-upper-rangedel.git"
+    }
+  , "dependencies"    : {
+        "downer-rangedel" : "~0.0.0"
+    }
+  , "devDependencies" : {
+        "levelup"         : "~0.7.0-b01"
+      , "tap"             : "*"
+      , "rimraf"          : "*"
+    }
+  , "peerDependencies" : {
+        "levelup"       : "~0.7.0-b01"
+    }
+  , "scripts": {
+        "test"            : "node ./test.js"
+    }
+  , "license"             : "MIT"
+}
